@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #475be2;
+  --text-color: #2a2a2f;
+  --color-gray-1: #f3f3f8;
+  --color-gray-2: #e5e5e5;
+  --color-gray-3: #e5e5ea;
+  --color-gray-4: #b1b1b7;
+  --color-gray-5: #dbdade;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-success: #22d898;
+  --color-edit: #a053ec;
+  --color-remove: #f16f6f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-gray-2);
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--text-color);
+}
+
+[class] {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}

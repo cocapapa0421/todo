@@ -1,0 +1,27 @@
+.todo-head {
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--color-gray-5);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  background-color: var(--color-gray-3);
+}
+
+.item {
+  border: 1px solid var(--color-gray-3);
+  box-shadow: 0px 6px 14px rgba(42, 42, 47, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--color-white);
+}
+
+.item + .item {
+  margin-top: 1rem;
+}
+
+.item.is-complete .item__content {
+  text-decoration: line-through;
+}
+
+.item__actions > :not(first-child) {
+  margin-right: 1rem;
+}
